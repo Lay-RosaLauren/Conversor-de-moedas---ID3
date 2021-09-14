@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Convertendo Valores
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    <label for="moeda"><h3>INSIRA O VALOR</h3></label><br>
+
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <section class="inputs">
+    <h2>R$ Real</h2>
+    <input type="number" name="real" id="real" class="input" placeholder="BRL">
+    <h2>$ Dólar</h2>
+    <input type="number" name="dolar" id="dolar" class="input" placeholder="USD">
+    <h2>€ Euro</h2>
+    <input type="number" name="euro" id="euro" class="input" placeholder="EUR">
+    <h2>₿ Bitcoin</h2>
+    <input type="number" name="bitcoin" id="bitcoin" class="input" placeholder="BTC">
+    </section>
+  </div>
+  <script src="converter.js"></script>
+</body>
+</html>    
